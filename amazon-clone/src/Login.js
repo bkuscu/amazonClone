@@ -12,9 +12,9 @@ function Login() {
     }   
 
     const register = e => {
-        e.preventDefault;
+        e.preventDefault();
         // firebse register stuff coming up
-        
+
     }
 
   return (
@@ -36,7 +36,7 @@ function Login() {
             <h5>Password</h5>
             <input type="password" value={password} onChange={e => setPassword(e.target.value)}/>
 
-            <button type="submit" className="login__signInButton" onClick="" >{signIn}</button>
+            <button type="submit" className="login__signInButton" onClick="{signIn}" >Sign in</button>
         </form>
 
         <p>By signing-in you agree to the AMAZON FAKE CLONE Conditions of Use & Sale. Please
